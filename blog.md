@@ -141,11 +141,11 @@ pip install -r requirements.txt
 python sync.py config --init
 # Edit config.json with your credentials
 
-# Sync everything
-python sync.py sync --after 2020-01-01
+# Sync everything (all time)
+python sync.py sync
 
 # Or just this year
-python sync.py sync --after 2024-01-01
+python sync.py sync --after 2026-01-01
 ```
 
 That's it. Seriously. No PhD required.
