@@ -1,0 +1,52 @@
+# Configuration and credentials - DO NOT COMMIT
+strava_config.json
+config.json
+.strava-app.key
+
+# Downloaded data and logs
+strava_data/
+sync_log.json
+*.csv
+activities_summary.json
+
+# Test files
+test.py
+test2.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
